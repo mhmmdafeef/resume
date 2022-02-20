@@ -35,6 +35,10 @@ div.nav-bar {
   justify-content: space-between;
   background-color: white;
 }
+#links {
+  display: flex;
+  align-items: center;
+}
 
 html {
   background-color: white;
@@ -48,6 +52,13 @@ html {
   font-size: 16px;
   color: black;
   width: 520px;
+}
+
+#hamburger {
+  display: none;
+}
+ul {
+  display: flex;
 }
 
 li {
